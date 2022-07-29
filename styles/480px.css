@@ -1,0 +1,96 @@
+@media (max-width: 480px) {
+    .wrapper .left-side h1 {
+        font-size: 19.5px;
+    }
+
+    .wrapper .left-side .contacts {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .wrapper .left-side .contacts .contacts-item span {
+        display: none;
+    }
+
+    .wrapper .left-side .contacts .contacts-item {
+        width: auto;
+    }
+
+    .wrapper .left-side .contacts h1, .wrapper .left-side .education h1 {
+        margin-bottom: 4px;
+    }
+
+    .wrapper .left-side .contacts img {
+        width: 33px;
+    }
+
+    .wrapper .left-side .education .education-item h3, .wrapper .left-side .skills .skills-item span {
+        font-size: 15px;
+    }
+
+    .wrapper .left-side .education .education-item p {
+        font-size: 13.7px;
+    }
+
+
+
+    .wrapper .right-side .name-person img {
+        width: 40px;
+    }
+
+    .wrapper .right-side .name-person h1 {
+        font-size: 44px;
+        margin-top: 30px;
+    }
+
+    .wrapper .right-side .name-person p {
+        padding-left: 46px;
+    }
+
+    .wrapper .right-side .right-side-block {
+        padding: 0 7% 0 6%;
+    }
+
+    .wrapper .right-side .goal h1, .wrapper .right-side .experience h1 {
+        font-size: 26px;
+    }
+
+    .wrapper .right-side .goal {
+        margin-bottom: 0;
+    }
+
+    .wrapper .right-side .goal p {
+        font-size: 14px;
+        margin: 10px 0 10px;
+        line-height: 23px;
+    }
+
+    .wrapper .right-side .experience .experience-item div h3 {
+        font-size: 17px;
+    }
+
+    .wrapper .right-side .experience .experience-item div p {
+        font-size: 12px;
+    }
+
+    .wrapper .right-side .experience .experience-item .company-name {
+        font-size: 15px;
+    }
+
+    .wrapper .right-side .experience .experience-item .description-company {
+        font-size: 14px;
+    }
+
+    .wrapper .right-side .social-networks {
+        padding: 20px 5% 10px 0%;
+    }
+    
+    .wrapper .right-side .social-networks a {
+        margin: 0 15px;
+    }
+
+    .wrapper .right-side .social-networks p {
+        display: none;
+    }
+}

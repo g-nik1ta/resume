@@ -1,0 +1,265 @@
+@font-face {
+    font-family: Monserrat-regular;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Monserrat-bold;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+* {
+    text-decoration: none;
+    font-family: Monserrat-regular;
+}
+
+.wrapper .left-side h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .left-side .left-side-block {
+    padding-left: 22%;
+}
+
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.wrapper .left-side { 
+    color: #fff;
+    width: 35%;
+    background: url("../img/бол\ фон.png") no-repeat center/100% 100%;
+}
+
+.wrapper .left-side .avatar {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .left-side .avatar img {
+    width: 50%;
+    border: 10px solid #fff;
+    border-radius: 20px;
+}
+
+.wrapper .left-side .contacts {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.wrapper .left-side .contacts h1 {
+    letter-spacing: 8px;
+}
+
+.wrapper .left-side .contacts .contacts-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 7px 0;
+}
+
+.wrapper .left-side .contacts img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.wrapper .left-side .education {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.wrapper .left-side .education h1 {
+    letter-spacing: 5px;
+}
+
+.wrapper .left-side .education .education-item h3 {
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+}
+
+.wrapper .left-side .education .education-item p {
+    margin: 5px 0;
+}
+
+.wrapper .left-side .skills {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.wrapper .left-side .skills h1 {
+    letter-spacing: 4px;
+}
+
+.wrapper .left-side .skills .skills-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+
+
+
+
+.wrapper .right-side .right-side-block {
+    padding: 0 12% 0 9%;
+}
+
+.wrapper .right-side {
+    width: 65%;
+    background: url("../img/фон.png") no-repeat center/100% 100%;
+}
+
+.wrapper .right-side .name-person {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background-color: #f3f3f3;
+    border-radius: 0px 0px 553px 222px / 0px 0px 214px 23px;
+}
+
+.wrapper .right-side .name-person img {
+    width: 44px;
+    position: relative;
+    top: 110px;
+    right: 10px;
+}
+
+.wrapper .right-side .name-person h1 {
+    font-size: 64px;
+    padding-left: 70px;
+    margin-bottom: 0;
+}
+
+.wrapper .right-side .name-person h1 span {
+    font-family: Monserrat-bold;
+}
+
+.wrapper .right-side .name-person p {
+    padding-left: 70px;
+    margin: 0;
+    font-family: Monserrat-bold;
+    color: #939598;
+}
+
+.wrapper .right-side .goal {
+    padding-top: 20px;
+    height: 250px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.wrapper .right-side .goal h1, .wrapper .right-side .experience h1 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 44px;
+    color: #535da6;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.wrapper .right-side .goal p {
+    margin: 20px 0 40px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.wrapper .right-side .goal hr {
+    height: 3px;
+    border: none;
+    background-color: #e0dfdf;
+}
+
+.wrapper .right-side .experience {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.wrapper .right-side .experience h1 {
+    margin-bottom: 15px;
+}
+
+.wrapper .right-side .experience .positions {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .right-side .experience .experience-item div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .right-side .experience .experience-item div h3 {
+    font-size: 21px;
+    font-family: Monserrat-bold;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.wrapper .right-side .experience .experience-item div p {
+    font-family: Monserrat-bold;
+    color: #535da6;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.wrapper .right-side .experience .experience-item .company-name {
+    margin-top: 6px;
+    font-family: Monserrat-bold;
+}
+
+.wrapper .right-side .experience .experience-item .description-company {
+    text-align: justify;
+}
+
+.wrapper .right-side .social-networks {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 100px 12% 0 9%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.wrapper .right-side .social-networks a {
+    width: 30px;
+    margin: 0 14px;
+}
+
+.wrapper .right-side .social-networks p {
+    font-family: Monserrat-bold;
+    padding-right: 5%;
+}
+
+.wrapper .right-side .social-networks div {
+    display: flex;
+}
