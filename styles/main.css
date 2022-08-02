@@ -112,15 +112,23 @@ body {
     margin-bottom: 20px;
 }
 
+.wrapper .left-side .skills .hard-skills {
+    margin-bottom: 10px;
+}
+
 .wrapper .left-side .skills h1 {
     letter-spacing: 4px;
 }
 
-.wrapper .left-side .skills .skills-item {
+.wrapper .left-side .skills div h3 {
+    margin: 14px 0 10px;
+}
+
+.wrapper .left-side .skills div .skills-item {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin: 5px;
+    margin: 6px;
 }
 
 
