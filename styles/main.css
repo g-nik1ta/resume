@@ -216,7 +216,16 @@ body {
     margin-bottom: 15px;
 }
 
-.wrapper .right-side .experience .positions {
+.wrapper .right-side .experience h2 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+    color: #535da6;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.wrapper .right-side .experience .block-item {
     display: flex;
     flex-direction: column;
 }
@@ -224,20 +233,20 @@ body {
 .wrapper .right-side .experience .experience-item div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .wrapper .right-side .experience .experience-item div h3 {
     font-size: 21px;
     font-family: Monserrat-bold;
     letter-spacing: 2px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .wrapper .right-side .experience .experience-item div p {
     font-family: Monserrat-bold;
     color: #535da6;
-    margin-bottom: 0;
-    padding-top: 10px;
+    margin: 0;
 }
 
 .wrapper .right-side .experience .experience-item .company-name {
