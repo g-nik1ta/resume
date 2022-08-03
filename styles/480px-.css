@@ -1,0 +1,85 @@
+@media (max-width: 400px) {
+    .wrapper .left-side h1 {
+        font-size: 22px;
+    }
+
+    .wrapper .left-side .contacts .contacts-item,
+    .wrapper .left-side .education .education-item h3,
+    .wrapper .left-side .education .education-item p {
+        font-size: 15px;
+    }
+
+    .wrapper .left-side .skills div h3 {
+        font-size: 17px;
+    }
+
+    .wrapper .right-side .experience .experience-item div {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .wrapper .right-side .name-person h1 {
+        font-size: 30px;
+    }
+
+    .wrapper .right-side .name-person p {
+        font-size: 10px;
+    }
+
+    .wrapper .right-side .name-person img {
+        top: 4px;
+    }
+
+    .wrapper .right-side .goal h1,
+    .wrapper .right-side .experience h1 {
+        font-size: 22px;
+    }
+
+    .wrapper .right-side .experience h1 {
+        margin-bottom: 5px;
+    }
+
+    .wrapper .right-side .experience h2 {
+        font-size: 20px;
+    }
+
+    .wrapper .right-side .experience .experience-item div p {
+        font-size: 12.5px;
+    }
+
+    .footer .social-networks p {
+        font-size: 12px;
+    }
+
+    .footer .social-networks a {
+        width: 28px;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 340px) {
+    .wrapper .right-side .name-person .name-post {
+        padding-left: 10px;
+        font-size: 28px;
+    }
+
+    .wrapper .right-side .goal h1, .wrapper .right-side .experience h1 {
+        font-size: 19px;
+    }
+
+    .wrapper .right-side .experience h2 {
+        font-size: 18px;
+    }
+
+    .wrapper .right-side .experience .experience-item div h3 {
+        font-size: 16px;
+    }
+
+    .footer .social-networks div {
+        padding-left: 5px;
+    }
+
+    .footer .social-networks a {
+        margin: 0 5px;
+    }
+}

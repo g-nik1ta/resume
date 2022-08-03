@@ -145,26 +145,30 @@ body {
 }
 
 .wrapper .right-side .name-person {
+    display: flex;
+    align-items: baseline;
     width: 100%;
     height: 300px;
     margin-bottom: 50px;
-    padding-top: 30px;
+    padding-top: 125px;
     box-sizing: border-box;
     background-color: #f3f3f3;
     border-radius: 0px 0px 553px 222px / 0px 0px 214px 23px;
 }
 
+.wrapper .right-side .name-person .name-post {
+    padding-left: 30px;
+}
+
 .wrapper .right-side .name-person img {
     width: 44px;
     position: relative;
-    top: 110px;
     right: 10px;
 }
 
 .wrapper .right-side .name-person h1 {
     font-size: 64px;
-    padding-left: 70px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .wrapper .right-side .name-person h1 span {
@@ -172,7 +176,6 @@ body {
 }
 
 .wrapper .right-side .name-person p {
-    padding-left: 70px;
     margin: 0;
     font-family: Monserrat-bold;
     color: #939598;
@@ -247,11 +250,6 @@ body {
     font-family: Monserrat-bold;
     color: #535da6;
     margin: 0;
-}
-
-.wrapper .right-side .experience .experience-item .company-name {
-    margin-top: 6px;
-    font-family: Monserrat-bold;
 }
 
 .wrapper .right-side .experience .experience-item .description-company {

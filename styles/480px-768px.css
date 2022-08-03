@@ -1,0 +1,134 @@
+@media (max-width: 660px) {
+    .wrapper .left-side .left-side-block {
+        padding-left: 4%;
+    }
+
+    .wrapper .left-side .contacts,
+    .wrapper .left-side .avatar img {
+        margin-left: 0;
+    }
+
+    .wrapper .right-side .name-person h1 {
+        font-size: 50px;
+    }
+
+    .wrapper .right-side .name-person p {
+        font-size: 14px;
+    }
+
+    .wrapper .right-side .goal h1,
+    .wrapper .right-side .experience h1 {
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper .auxiliary-block {
+        flex-direction: column;
+    }
+
+    .wrapper .left-side .avatar img {
+        width: 50%;
+    }
+
+    .wrapper .left-side .left-side-block {
+        padding-left: 8%;
+        margin-bottom: 15px;
+    }
+
+    .wrapper .left-side h1 {
+        margin-bottom: 0;
+    }
+
+    .wrapper .left-side .contacts h1 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 550px) {  
+    .wrapper .right-side .right-side-block {
+        padding: 0 4% 0 5%;
+    }
+
+    .wrapper .right-side .name-person h1 {
+        font-size: 42px;
+    }
+
+    .wrapper .right-side .name-person p {
+        font-size: 12px;
+    }
+
+    .wrapper .right-side .name-person img {
+        width: 30px;
+    }
+
+    .wrapper .right-side .name-person {
+        padding: 30px 0;
+    }
+
+    .wrapper .right-side .goal h1,
+    .wrapper .right-side .experience h1 {
+        font-size: 29px;
+    }
+
+    .wrapper .right-side .goal p,
+    .wrapper .right-side .experience .experience-item .description-company {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    .wrapper .right-side .goal p {
+        margin: 10px 0 10px;
+    }
+
+    .wrapper .right-side .experience h2 {
+        font-size: 25px;
+    }
+
+    .wrapper .right-side .experience .experience-item div h3 {
+        font-size: 18px;
+    }
+
+    .wrapper .right-side .experience .experience-item div p {
+        font-size: 15px;
+    }
+
+    .footer .social-networks p {
+        font-size: 13px;
+    }
+
+    .footer .social-networks a {
+        width: 30px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper .right-side .name-person h1 {
+        font-size: 36px;
+    }
+
+    .wrapper .right-side .name-person p {
+        font-size: 11px;
+    }
+
+    .wrapper .right-side .name-person img {
+        width: 25px;
+    }
+
+    .wrapper .right-side .goal h1, .wrapper .right-side .experience h1 {
+        font-size: 25px;
+    }
+
+    .wrapper .right-side .experience h2 {
+        font-size: 22px;
+    }
+
+    .wrapper .right-side .experience .experience-item div h3 {
+        font-size: 17px;
+    }
+
+    .wrapper .right-side .experience .experience-item div p {
+        font-size: 13.5px;
+    }
+}
