@@ -5,41 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My resume</title>
+    <link rel="shortcut icon" href="images/cv.png">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/1280px+.css">
-    <link rel="stylesheet" href="styles/1024px-1280px.css">
-    <link rel="stylesheet" href="styles/768px-1024px.css">
-    <link rel="stylesheet" href="styles/480px-768px.css">
-    <link rel="stylesheet" href="styles/480px-.css">
 </head>
 
 <body>
-
-    <main class="wrapper">
+    <main>
         <div class="left-side">
-            <div class="auxiliary-block">
-                <div class="avatar">
-                    <img src="img/фото.png" alt="image">
-                </div>
-                <div class="contacts left-side-block">
+            <div class="wrapper">
+                <img class="avatar" src="images/avatar.png" alt="avatar">
+                <div class="contacts box-info">
                     <h1>Контакты</h1>
                     <a href="#" class="contacts-item">
-                        <img src="img/Тел.svg" alt="image">
+                        <img src="images/telephone.svg" alt="image">
                         <span>+380 99 627 2218</span>
                     </a>
-                    <a href="#" class="contacts-item">
-                        <img src="img/почта.svg" alt="image">
+                    <a href="mailto:gonohovn@gmail.com" class="contacts-item">
+                        <img src="images/mail.svg" alt="image">
                         <span>gonohovn@gmail.com</span>
                     </a>
                     <a href="https://github.com/g-nik1ta" class="contacts-item" target="_blank">
-                        <img src="img/сайт.svg" alt="image">
+                        <img src="images/site.svg" alt="image">
                         <span>github.com</span>
                     </a>
                 </div>
             </div>
-            <div class="auxiliary-block">
-                <div class="education left-side-block">
+            
+            <div class="wrapper">
+                <div class="education">
                     <h1>Образование</h1>
                     <div class="education-item">
                         <h3>ITVDN</h3>
@@ -57,156 +51,153 @@
                         <p>Сентябрь '21 - Июнь '25</p>
                     </div>
                 </div>
-                <div class="skills left-side-block">
-                    <h1>Навыки</h1>
-                    <div class="hard-skills">
-                        <h3>Hard skills</h3>
-                        <div class="skills-item">
-                            <span> JavaScript </span>
-                            <input type="range" min="0" max="100" value="80" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> HTML </span>
-                            <input type="range" min="0" max="100" value="85" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> CSS </span>
-                            <input type="range" min="0" max="100" value="90" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> GitHub </span>
-                            <input type="range" min="0" max="100" value="75" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> React </span>
-                            <input type="range" min="0" max="100" value="0" step="5">
-                        </div>
-                    </div>
-                    <div class="soft-skills">
-                        <h3>Soft skills</h3>
-                        <div class="skills-item">
-                            <span> Английский язык </span>
-                            <input type="range" min="0" max="100" value="50" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> Адаптивность </span>
-                            <input type="range" min="0" max="100" value="90" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> Креативность </span>
-                            <input type="range" min="0" max="100" value="75" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> Критичность </span>
-                            <input type="range" min="0" max="100" value="80" step="5">
-                        </div>
-                        <div class="skills-item">
-                            <span> Работа в команде </span>
-                            <input type="range" min="0" max="100" value="90" step="5">
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
+            <div class="wrapper">
+                <div class="hard-skills box-info">
+                    <h1>Навыки</h1>
+                    <div class="skills-item">
+                        <p> React </p>
+                        <progress max="100" value="87"></progress>
+                    </div>
+                    <div class="skills-item">
+                        <p> HTML </p>
+                        <progress max="100" value="100"></progress>
+                    </div>
+                    <div class="skills-item">
+                        <p> CSS </p>
+                        <progress max="100" value="97"></progress>
+                    </div>
+                    <div class="skills-item">
+                        <p> JavaScript </p>
+                        <progress max="100" value="92"></progress>
+                    </div>
+                    <div class="skills-item">
+                        <p> Redux </p>
+                        <progress max="100" value="82"></progress>
+                    </div>
+                    <p> Git </p>
+                    <p> Gulp </p>
+                    <p> Sass </p>
+                    <p> Ajax </p>
+                    <p> Node.js </p>
+                    <p> Bootstrap </p>
+                </div>
+                <div class="soft-skills box-info">
+                    <h1>Качества</h1>
+                    <p> Продуктивность </p>
+                    <p> Адаптируемость </p>
+                    <p> Коммуникабельность </p>
+                    <p> Работа в команде </p>
+                    <p> Саморазвитие </p>
+                </div>
+            </div>
         </div>
 
         <div class="right-side">
             <div class="name-person">
-                <img src="img/треугольник.png" alt="image">
-                <div class="name-post">
+                <img src="images/triangle.png" alt="image">
+                <div class="name-block">
                     <h1>Никита <span>Гонохов</span></h1>
                     <p>Frontend Developer</p>
                 </div>
 
             </div>
-            <div class="goal right-side-block">
+            <div class="goal wrapper">
                 <h1>Цель/обо мне</h1>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora voluptatem porro voluptas deserunt
-                    earum facilis modi cupiditate, unde aliquam aut molestias veritatis rerum eum at quae impedit
-                    pariatur error voluptatum quas soluta accusamus officia!
+                    Организован, спокойно отношусь к критике. Способен много учиться и слаженно работать в команде.
+                    Обладаю отличными знаниями в <b>JavaScript</b>, <b>HTML</b>, <b>Css</b> и других
+                    технологиях. Активно изучаю фреймворк <b>React</b> и меннеджер состояний <b>redux</b>. <br /> Моя цель -
+                    работать в дружной, специализированной комнаде, в которой я смог бы развивать свои навыки в
+                    разработке и создании <b>сайтов</b>, а также <b>веб-приложений</b>. Стремлюсь к изучению новых
+                    технологий и совершенствованию старых.
                 </p>
-                <hr>
             </div>
-            <div class="experience right-side-block">
+
+            <hr>
+
+            <div class="experience wrapper">
                 <h1>Опыт работы</h1>
                 <h2>Pet projects</h2>
                 <div class="block-item">
                     <div class="experience-item">
-                        <div>
-                            <h3>Личное резюме</h3>
-                        </div>
+                        <h3>Социальная сеть</h3>
                         <p class="description-company">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim porro deleniti
-                            nostrum! Esse amet dolorum animi culpa est, excepturi voluptatem deleniti voluptas aliquid,
-                            dolorem eaque dolore.
+                            В этом проекте я создаю свою социальную сеть, используя фреймворк <b>React</b>, меннеджер
+                            состояний
+                            <b>redux</b>, <b>Ajax</b> запросы, работу с сервером. Этот <b>SPA</b> будет включать в себя
+                            различные <b>компоненты</b>, такие как: лента новостей, личный профиль, чат с переписками и
+                            др.
+                            <a href="https://github.com/g-nik1ta/my-social-network" target="_blank"><i> Находиться в
+                                    разработке . . . </i></a>
                         </p>
                     </div>
                     <div class="experience-item">
-                        <div>
-                            <h3>Калькулятор на JS</h3>
-                        </div>
+                        <h3>Прогноз погоды</h3>
                         <p class="description-company">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim porro deleniti
-                            nostrum! Esse amet dolorum animi culpa est, excepturi voluptatem deleniti voluptas aliquid,
-                            dolorem eaque dolore.
+                            Здесь продемонстрированны знания в работе с <b>API</b>, <b>HTTP</b> запросами и ответами, а
+                            также показано взаимодействие с <b>навигацией</b>. На сайте показаны основные показатели
+                            погоды. Есть
+                            возможность узнать погоду в городе по <b>текущему местоположению</b> или написав название
+                            интересующего
+                            города.
+                            <a href="https://github.com/g-nik1ta/weather-forecast-app" target="_blank">GitHub</a>
                         </p>
                     </div>
                     <div class="experience-item">
-                        <div>
-                            <h3>To do list</h3>
-                        </div>
+                        <h3>Калькулятор</h3>
                         <p class="description-company">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim porro deleniti
-                            nostrum! Esse amet dolorum animi culpa est, excepturi voluptatem deleniti voluptas aliquid,
-                            dolorem eaque dolore.
+                            Типовое приложение на чистом JavaScript. В нем задействованы знания в работе с <b>local
+                                storage</b>, с помощью которого на сайте можно ставить "<b>ночную тему</b>". <a
+                                href="https://github.com/g-nik1ta/calculator" target="_blank">GitHub</a>
                         </p>
                     </div>
                     <div class="experience-item">
-                        <div>
-                            <h3>Игра "как стать миллионером"</h3>
-                        </div>
+                        <h3>To do list</h3>
                         <p class="description-company">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim porro deleniti
-                            nostrum! Esse amet dolorum animi culpa est, excepturi voluptatem deleniti voluptas aliquid,
-                            dolorem eaque dolore.
+                            Еще одно типовое приложение на чистом JS. Есть возможность <b>редактировать</b>,
+                            <b>удалять</b>, а
+                            также помечать как "выполненно" имеющиеся задачи. Кроме этого присутсвует <b>сортировка</b>
+                            всех
+                            заданий на "выполненно / не выполнено". <a href="https://github.com/g-nik1ta/to-do-list"
+                                target="_blank">GitHub</a>
                         </p>
                     </div>
+                    <p class="my-github">Многие другие pet projects на моем <a href="https://github.com/g-nik1ta">GitHub</a>.</p>
                 </div>
-                <h2>Freelance</h2>
+                <h2>One page landings</h2>
                 <div class="block-item">
                     <div class="experience-item">
-                        <div>
-                            <h3>Вертска макетов</h3>
-                            <p>Август '22 - Ноябрь '22</p>
-                        </div>
+                        <h3>Pizza website</h3>
                         <p class="description-company">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium enim porro deleniti
-                            nostrum! Esse amet dolorum animi culpa est, excepturi voluptatem deleniti voluptas aliquid,
-                            dolorem eaque dolore.
+                            Несколько-страничный веб-сайт, стилизированный через <b>scss</b> и собран с помощью <b>gulp</b>.
+                            Присутсвует автослайдер, написанный на чистом JS. <a href="https://github.com/g-nik1ta/pizza-website" target="_blank"><i>Находиться в разработке . . .</i></a>
+                        </p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Golden landing page</h3>
+                        <p class="description-company">
+                            Простой одностраничный сайт, с использованием <b>flex</b> и <b>grid</b> разметки, а также семантической
+                            верстки. <a href="https://github.com/g-nik1ta/golden-landing-page"
+                                target="_blank">GitHub</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <div class="footer">
+
+    <footer>
         <div class="social-networks">
             <p>Мои социальные сети</p>
             <div>
-                <a href="https://instagram.com/n_e_k_1_t__" target="_blank">
-                    <img src="img/instagram.png" alt="image">
-                </a>
-                <a href="https://t.me/nekit_tt" target="_blank">
-                    <img src="img/telegram.png" alt="image">
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100023637429068" target="_blank">
-                    <img src="img/facebook.png" alt="image">
-                </a>
+                <a href="https://instagram.com/n_e_k_1_t__" target="_blank"></a>
+                <a href="https://t.me/nekit_tt" target="_blank"></a>
+                <a href="https://www.facebook.com/profile.php?id=100023637429068" target="_blank"></a>
             </div>
         </div>
-    </div>
+    </footer>
 
 </body>
 
