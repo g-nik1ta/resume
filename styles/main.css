@@ -198,7 +198,7 @@ main .right-side .experience h1 {
 main .right-side .goal p,
 main .right-side .experience p {
     text-align: justify;
-    line-height: 25px;
+    line-height: 28px;
     font-size: 18px;
 }
 
@@ -217,6 +217,7 @@ main .right-side .experience h2 {
     color: #535da6;
     letter-spacing: 3px;
     margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 main .right-side .experience .block-item .experience-item h3 {

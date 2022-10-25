@@ -1,0 +1,380 @@
+@media (min-width: 1536px) {
+    main .left-side {
+        min-width: 500px !important;
+    }
+
+    main .right-side {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 1150px) {
+    main .left-side {
+        min-width: 320px
+    }
+
+    main .left-side .wrapper {
+        align-items: center;
+    }
+
+    main .left-side .avatar {
+        width: 230px;
+        height: 230px;
+    }
+
+    main .left-side h1 {
+        font-size: 26px;
+    }
+
+    .box-info {
+        width: 80%;
+    }
+
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 50px;
+    }
+
+    main .right-side .goal h1,
+    main .right-side .experience h1 {
+        font-size: 36px;
+    }
+
+    main .right-side .experience h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 900px) {
+    main .right-side .name-person {
+        height: 240px;
+        padding-top: 80px;
+    }
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 44px;
+    }
+
+    main .right-side .goal h1,
+    main .right-side .experience h1 {
+        font-size: 32px;
+    }
+
+    main .right-side .experience .block-item .experience-item p {
+        max-height: 150px;
+        overflow: scroll;
+        overflow-x: hidden;
+        padding-right: 10px;
+    }
+
+    main .right-side .experience .block-item .experience-item p::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    main .right-side .experience .block-item .experience-item p::-webkit-scrollbar-track {
+        background-color: rgba(85, 85, 85, 0.2);
+        border-radius: 4px;
+        margin: 4px 0;
+    }
+
+    main .right-side .experience .block-item .experience-item p::-webkit-scrollbar-thumb {
+        background-color: rgba(169, 169, 169, 0.4);
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        display: block;
+    }
+
+    main .left-side {
+        width: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 20px;
+    }
+
+    main .left-side .avatar {
+        width: 200px;
+        height: 200px;
+        margin: 20px 0 0;
+    }
+
+    main .left-side .box-info:first-of-type {
+        margin: 0 0 10px;
+    }
+
+    main .left-side .education {
+        margin-bottom: 10px;
+    }
+
+
+    main .right-side {
+        width: 100%;
+    }
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 50px;
+    }
+
+    main .right-side .goal {
+        padding-top: 15px;
+    }
+
+    main .right-side .goal h1,
+    main .right-side .experience h1 {
+        font-size: 40px;
+    }
+
+    main .right-side .goal p,
+    main .right-side .experience p {
+        line-height: 30px;
+    }
+
+    main .right-side .experience .block-item .experience-item p {
+        max-height: fit-content;
+        overflow: initial;
+    }
+}
+
+@media (max-width: 640px) {
+    .box-info {
+        width: auto;
+    }
+
+    main .left-side .avatar {
+        width: 170px;
+        height: 170px;
+    }
+
+    main .left-side h1 {
+        font-size: 20px;
+    }
+
+    main .left-side .contacts .contacts-item {
+        font-size: 14px;
+    }
+
+    main .left-side .education .education-item h3 {
+        font-size: 16px;
+    }
+
+    main .left-side .education .education-item p {
+        font-size: 14px;
+    }
+
+    main .left-side .hard-skills p,
+    main .left-side .soft-skills p {
+        font-size: 16px;
+    }
+
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 44px;
+    }
+
+    main .right-side .goal {
+        margin-bottom: 20px;
+    }
+
+    main .right-side .goal h1,
+    main .right-side .experience h1 {
+        font-size: 30px;
+    }
+
+    main .right-side .goal p,
+    main .right-side .experience p {
+        line-height: 26px;
+        font-size: 16px;
+    }
+
+    main .right-side .experience h2 {
+        font-size: 24px;
+    }
+
+    main .right-side .experience .block-item .experience-item p {
+        max-height: 100px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    main .left-side {
+        flex-direction: column;
+    }
+
+    main .left-side .box-info:first-of-type {
+        margin: 20px 0 40px;
+    }
+
+    main .left-side .avatar {
+        width: 230px;
+        height: 230px;
+    }
+
+    main .left-side h1 {
+        font-size: 28px;
+    }
+
+    main .left-side .contacts .contacts-item,
+    main .left-side .education .education-item h3 {
+        font-size: 18px;
+    }
+
+    main .left-side .education .education-item p {
+        font-size: 16px;
+    }
+
+    main .left-side .wrapper {
+        align-items: initial;
+    }
+
+    main .left-side .hard-skills p, main .left-side .soft-skills p {
+        font-size: 20px;
+    }
+
+
+
+    main .right-side .goal h1, main .right-side .experience h1 {
+        font-size: 28px;
+    }
+
+    main .right-side .goal p, main .right-side .experience p {
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 460px) {
+    main .right-side .name-person img {
+        padding-top: 32px;
+    }
+
+    main .right-side .name-person {
+        padding-top: 45px;
+    }
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 48px;
+    }
+
+    footer .social-networks p {
+        font-size: 14px;
+    }
+
+    footer .social-networks a {
+        width: 28px;
+        height: 28px;
+        margin: 0 8px;
+    }
+}
+
+@media (max-width: 390px) {
+    main .left-side h1 {
+        font-size: 25px;
+    }
+
+    main .left-side .wrapper {
+        width: auto;
+    }
+
+    main .right-side .name-person {
+        height: 220px;
+    }
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 40px;
+    }
+
+    main .right-side .name-person img {
+        padding-top: 22px;
+    }
+
+    main .right-side .wrapper {
+        padding: 0 7% 0 6%;
+    }
+
+    main .right-side .goal h1, main .right-side .experience h1 {
+        font-size: 22px;
+    }
+
+    main .right-side .goal p, main .right-side .experience p {
+        font-size: 14px;
+    }
+
+    main .right-side hr {
+        width: 88%;
+    }
+
+    main .right-side .my-github {
+        font-size: 13px !important;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    footer .social-networks {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    footer .social-networks p {
+        margin-bottom: 6px;
+    }
+
+    footer .social-networks div {
+        padding: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    main .left-side {
+        min-width: fit-content;
+        padding: 0;
+    }
+
+    .box-info {
+        width: fit-content;
+    }
+
+    main .left-side .wrapper {
+        align-items: center;
+        width: fit-content;
+    }
+
+    main .right-side .name-person .name-block h1 {
+        font-size: 36px;
+    }
+
+    main .right-side .name-person img {
+        padding-top: 18px;
+    }
+
+    main .right-side .wrapper p {
+        max-height: 250px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+
+    main .right-side .wrapper p::-webkit-scrollbar {
+        width: 6px;
+    }
+    
+
+    main .right-side .wrapper p::-webkit-scrollbar-track {
+        background-color: rgba(85, 85, 85, 0.2);
+        border-radius: 4px;
+        margin: 4px 0;
+    }
+
+    main .right-side .wrapper p::-webkit-scrollbar-thumb {
+        background-color: rgba(169, 169, 169, 0.4);
+        border-radius: 4px;
+    }
+
+    main .right-side .experience h2 {
+        font-size: 20px;
+    }
+}
