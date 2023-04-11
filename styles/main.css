@@ -19,6 +19,21 @@ body {
     font-family: Monserrat-regular;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #919ec3;
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background-color: #e5e5e5;
+    box-shadow: 0px 0px 3px #ffffff inset;
+}
+
 .box-info {
     margin: 20px 0 50px;
 }
@@ -260,6 +275,7 @@ main .right-side .experience .block-item .experience-item p {
 main .right-side .experience .block-item a {
     color: #8b92c4;
     transition: all .07s ease-in-out;
+    text-decoration: underline;
 }
 main .right-side .experience .block-item a:hover {
     color: #1d2561;
