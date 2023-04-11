@@ -114,6 +114,16 @@
         width: 100%;
     }
 
+    main .right-side .languages-block{
+        right: auto;
+        color: #fff;
+    }
+
+    main .right-side .languages-block .language{
+        color: #fff !important;
+        text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+    }
+
     main .right-side .name-person .name-block h1 {
         font-size: 50px;
     }
@@ -203,6 +213,7 @@
 @media (max-width: 480px) {
     main .left-side {
         flex-direction: column;
+        padding-top: 30px;
     }
 
     main .left-side .box-info:first-of-type {
@@ -332,7 +343,7 @@
 @media (max-width: 320px) {
     main .left-side {
         min-width: fit-content;
-        padding: 0;
+        padding: 25px 0 0;
     }
 
     .box-info {

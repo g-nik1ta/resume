@@ -143,6 +143,32 @@ main .right-side {
     width: 65%;
 }
 
+main .right-side .languages-block{
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin: 10px 15px;
+    font-size: 18px;
+}
+
+main .right-side .languages-block .language:not(.current){
+    cursor: pointer;
+    transition: .4s all ease-in;
+    color: #000;
+}
+
+main .right-side .languages-block .language:not(.current):hover{
+    opacity: .5;
+}
+
+main .right-side .languages-block .language.current{
+    font-weight: bold;
+    cursor: default;
+    color: #000;
+}
+
 main .right-side .wrapper {
     padding: 0 12% 0 9%;
 }
