@@ -17,7 +17,7 @@
             <div class="wrapper">
                 <img class="avatar" src="../images/avatar.png" alt="avatar">
                 <div class="contacts box-info">
-                    <h1>Контакты</h1>
+                    <h1 class="title">Контакты</h1>
                     <a href="tel:+380-99-627-2218" class="contacts-item">
                         <img src="../images/telephone.svg" alt="image">
                         <span>+380 99 627 2218</span>
@@ -33,19 +33,19 @@
                 </div>
 
                 <div class="education">
-                    <h1>Образование</h1>
+                    <h1 class="title">Образование</h1>
                     <div class="education-item">
-                        <h3>ITVDN</h3>
+                        <h3 class="subtitle">ITVDN</h3>
                         <p>Junior Frontend Developer</p>
                         <p>Июнь 2022 - Ноябрь 2022</p>
                     </div>
                     <div class="education-item">
-                        <h3>CyberBionic<br />Systematics</h3>
+                        <h3 class="subtitle">CyberBionic<br />Systematics</h3>
                         <p>Junior Frontend Developer</p>
                         <p>Июнь 2022 - Ноябрь 2022</p>
                     </div>
                     <div class="education-item">
-                        <h3>ЦДУ</h3>
+                        <h3 class="subtitle">ЦДУ</h3>
                         <p>Комьютерные науки</p>
                         <p>Сентябрь 2021 - Июнь 2025</p>
                     </div>
@@ -54,21 +54,21 @@
 
             <div class="wrapper">
                 <div class="hard-skills box-info">
-                    <h1>Навыки</h1>
+                    <h1 class="title">Навыки</h1>
                     <div class="skills-item">
                         <p> React </p>
                         <progress max="100" value="97"></progress>
                     </div>
                     <div class="skills-item">
-                        <p> HTML </p>
+                        <p> HTML5 </p>
                         <progress max="100" value="100"></progress>
                     </div>
                     <div class="skills-item">
-                        <p> CSS </p>
-                        <progress max="100" value="97"></progress>
+                        <p> CSS3 </p>
+                        <progress max="100" value="100"></progress>
                     </div>
                     <div class="skills-item">
-                        <p> JavaScript </p>
+                        <p> JavaScript(ES5,6) </p>
                         <progress max="100" value="98"></progress>
                     </div>
                     <div class="skills-item">
@@ -88,14 +88,14 @@
                         <progress max="100" value="60"></progress>
                     </div>
                     <p> Git </p>
-                    <p> Gulp </p>
                     <p> Sass </p>
                     <p> Ajax </p>
                     <p> Firebase </p>
+                    <p> Gulp </p>
                     <p> Node.js </p>
                 </div>
                 <div class="soft-skills box-info">
-                    <h1>Качества</h1>
+                    <h1 class="title">Качества</h1>
                     <p> Продуктивность </p>
                     <p> Адаптируемость </p>
                     <p> Коммуникабельность </p>
@@ -107,14 +107,14 @@
 
         <div class="right-side">
             <div class="languages-block">
-                <a href="../index.html" class="language">UK </a>| 
+                <a href="../index.html" class="language">UK </a>|
                 <a href="indexRU.html" class="language current">RU</a>
             </div>
-            <div class="name-person">
+            <div class="person-info">
                 <img src="../images/triangle.png" alt="image">
                 <div class="name-block">
-                    <h1>Никита <span>Гонохов</span></h1>
-                    <p>Frontend Developer</p>
+                    <h1 class="name">Никита <span>Гонохов</span></h1>
+                    <p class="job-title">Frontend Developer</p>
                 </div>
 
             </div>
@@ -137,16 +137,30 @@
 
             <div class="experience wrapper">
                 <h1>Опыт работы</h1>
-                <h2>Pet projects</h2>
-                <div class="block-item">
+
+                <div class="experience-company">
+                    <div class="company-info">
+                        <h3 class="subtitle">Trainee Frontend developer</h3>
+                        <span class="date">Ноябрь 2022 - Март 2023</span>
+                    </div>
+                    <p class="description">
+                        Мы разрабатывали веб-приложение и роли для пользователей на основе <b>Vue 2</b> с
+                        <b>Vue-cli@5</b>, используя библиотеку <b>Vuetify</b> с интеграцией <b>Keycloak</b>, а также
+                        меннеджер состояний <b>Vuex</b>. Кроме этого мы работали над созданием <b>пользовательских
+                        интерфейсов</b> (UI) на основе различных макетов.
+                    </p>
+                </div>
+
+                <h2 class="title">Pet projects</h2>
+                <div class="experience-block">
                     <div class="experience-item">
-                        <h3>Интернет магазин</h3>
-                        <p class="description-company">
+                        <h3 class="subtitle">Интернет-магазин</h3>
+                        <p class="description">
                             Этот проект имеет принцип SPA и написанный на фреймворке <b>React</b>, используя меннеджер
                             состояний <b>Redux</b>. Он включает в себя множество технологий, такие как: использование
                             предпроцессора <b>scss, Ajax, API запросы</b>, облачное хранилище данный и фотографий -
                             <b>firebase</b>, возможность <b>аунтификации</b> через различные сервисы и многие другие.
-                            Данный интернет магазин имеет множество страниц и компонентов, такие как: различные
+                            Данный интернет-магазин имеет множество страниц и компонентов, такие как: различные
                             слайдеры,
                             постраничная пагинация, фильтр и поиск товаров, корзина, оформление заказа, окно
                             авторизации, и др.
@@ -154,8 +168,8 @@
                         </p>
                     </div>
                     <div class="experience-item">
-                        <h3>Прогноз погоды</h3>
-                        <p class="description-company">
+                        <h3 class="subtitle">Прогноз погоды</h3>
+                        <p class="description">
                             Здесь продемонстрированны знания в работе с <b>API</b>, <b>HTTP</b> запросами и ответами, а
                             также показано взаимодействие с <b>навигацией</b>. На сайте показаны основные показатели
                             погоды. Есть
@@ -165,34 +179,33 @@
                             <a href="https://github.com/g-nik1ta/weather-forecast-app" target="_blank">GitHub</a>
                         </p>
                     </div>
-                    <div class="experience-item">
-                        <h3>Калькулятор</h3>
-                        <p class="description-company">
+                    <!-- <div class="experience-item">
+                        <h3 class="subtitle">Калькулятор</h3>
+                        <p class="description">
                             Типовое приложение на чистом JavaScript. В нем задействованы знания в работе с <b>local
                                 storage</b>, с помощью которого на сайте можно ставить "<b>ночную тему</b>". <a
                                 href="https://github.com/g-nik1ta/calculator" target="_blank">GitHub</a>
                         </p>
-                    </div>
+                    </div> -->
                     <div class="experience-item">
-                        <h3>To do list</h3>
-                        <p class="description-company">
-                            Еще одно типовое приложение на чистом JS. Есть возможность <b>редактировать</b>,
-                            <b>удалять</b>, а
+                        <h3 class="subtitle">To do list</h3>
+                        <p class="description">
+                            Типовое приложение на чистом JS. Есть возможность <b>редактировать</b>, <b>удалять</b>, а
                             также помечать как "выполненно" имеющиеся задачи. Кроме этого присутсвует <b>сортировка</b>
-                            всех
-                            заданий на "выполненно / не выполнено". <a href="https://github.com/g-nik1ta/to-do-list"
-                                target="_blank">GitHub</a>
+                            всех заданий на "выполненно / не выполнено".
+                            <a href="https://github.com/g-nik1ta/to-do-list" target="_blank">GitHub</a>
                         </p>
                     </div>
-                    <p class="my-github">Многие другие проекты на моем <a
-                            href="https://github.com/g-nik1ta">GitHub</a>.</p>
+                    <p class="my-github">Многие другие проекты на моем
+                        <a href="https://github.com/g-nik1ta">GitHub</a>.
+                    </p>
                 </div>
-                <h2>One page landings</h2>
-                <div class="block-item">
+                <h2 class="title">One page landings</h2>
+                <div class="experience-block">
                     <div class="experience-item">
-                        <h3>Pizza website</h3>
-                        <p class="description-company">
-                            Несколько-страничный веб-сайт, стилизированный через <b>scss</b> и собран с помощью
+                        <h3 class="subtitle">Pizza website</h3>
+                        <p class="description">
+                            Многостраничный веб-сайт, стилизированный через <b>scss</b> и собран с помощью
                             <b>gulp</b>.
                             Присутсвует автослайдер, написанный на чистом JS. <a
                                 href="https://github.com/g-nik1ta/pizza-website" target="_blank"><i>Находиться в
@@ -200,8 +213,8 @@
                         </p>
                     </div>
                     <div class="experience-item">
-                        <h3>Golden landing page</h3>
-                        <p class="description-company">
+                        <h3 class="subtitle">Golden landing page</h3>
+                        <p class="description">
                             Простой одностраничный сайт, с использованием <b>flex</b> и <b>grid</b> разметки, а также
                             семантической
                             верстки. <a href="https://github.com/g-nik1ta/golden-landing-page"
@@ -214,13 +227,11 @@
     </main>
 
     <footer>
+        <p class="title">Мои социальные сети</p>
         <div class="social-networks">
-            <p>Мои социальные сети</p>
-            <div>
-                <a href="https://instagram.com/n_e_k_1_t__" target="_blank"></a>
-                <a href="https://t.me/nekit_tt" target="_blank"></a>
-                <a href="https://www.facebook.com/profile.php?id=100023637429068" target="_blank"></a>
-            </div>
+            <a href="https://instagram.com/n_e_k_1_t__" target="_blank"></a>
+            <a href="https://t.me/nekit_tt" target="_blank"></a>
+            <a href="https://www.facebook.com/profile.php?id=100023637429068" target="_blank"></a>
         </div>
     </footer>
 

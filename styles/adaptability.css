@@ -22,7 +22,7 @@
         height: 230px;
     }
 
-    main .left-side h1 {
+    main .left-side .title {
         font-size: 26px;
     }
 
@@ -31,7 +31,7 @@
     }
 
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block .name {
         font-size: 50px;
     }
 
@@ -40,18 +40,18 @@
         font-size: 36px;
     }
 
-    main .right-side .experience h2 {
+    main .right-side .experience .title {
         font-size: 26px;
     }
 }
 
 @media (max-width: 900px) {
-    main .right-side .name-person {
+    main .right-side .person-info {
         height: 240px;
         padding-top: 80px;
     }
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block h1 {
         font-size: 44px;
     }
 
@@ -60,24 +60,24 @@
         font-size: 32px;
     }
 
-    main .right-side .experience .block-item .experience-item p {
+    main .right-side .experience .experience-block .experience-item .description {
         max-height: 150px;
         overflow: scroll;
         overflow-x: hidden;
         padding-right: 10px;
     }
 
-    main .right-side .experience .block-item .experience-item p::-webkit-scrollbar {
+    main .right-side .experience .experience-block .experience-item .description::-webkit-scrollbar {
         width: 6px;
     }
 
-    main .right-side .experience .block-item .experience-item p::-webkit-scrollbar-track {
+    main .right-side .experience .experience-block .experience-item .description::-webkit-scrollbar-track {
         background-color: rgba(85, 85, 85, 0.2);
         border-radius: 4px;
         margin: 4px 0;
     }
 
-    main .right-side .experience .block-item .experience-item p::-webkit-scrollbar-thumb {
+    main .right-side .experience .experience-block .experience-item .description::-webkit-scrollbar-thumb {
         background-color: rgba(169, 169, 169, 0.4);
         border-radius: 4px;
     }
@@ -124,7 +124,7 @@
         text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
     }
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block .name {
         font-size: 50px;
     }
 
@@ -142,7 +142,7 @@
         line-height: 30px;
     }
 
-    main .right-side .experience .block-item .experience-item p {
+    main .right-side .experience .experience-block .experience-item .description {
         max-height: fit-content;
         overflow: initial;
     }
@@ -166,7 +166,7 @@
         font-size: 14px;
     }
 
-    main .left-side .education .education-item h3 {
+    main .left-side .education .education-item .subtitle {
         font-size: 16px;
     }
 
@@ -180,7 +180,7 @@
     }
 
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block .name {
         font-size: 44px;
     }
 
@@ -199,11 +199,11 @@
         font-size: 16px;
     }
 
-    main .right-side .experience h2 {
+    main .right-side .experience .title {
         font-size: 24px;
     }
 
-    main .right-side .experience .block-item .experience-item p {
+    main .right-side .experience .experience-block .experience-item .description {
         max-height: 100px;
         overflow: scroll;
         overflow-x: hidden;
@@ -225,16 +225,16 @@
         height: 230px;
     }
 
-    main .left-side h1 {
+    main .left-side .title {
         font-size: 28px;
     }
 
     main .left-side .contacts .contacts-item,
-    main .left-side .education .education-item h3 {
+    main .left-side .education .education-item .subtitle {
         font-size: 18px;
     }
 
-    main .left-side .education .education-item p {
+    main .left-side .education .education-item .description {
         font-size: 16px;
     }
 
@@ -242,35 +242,38 @@
         align-items: initial;
     }
 
-    main .left-side .hard-skills p, main .left-side .soft-skills p {
+    main .left-side .hard-skills p,
+    main .left-side .soft-skills p {
         font-size: 20px;
     }
 
 
 
-    main .right-side .goal h1, main .right-side .experience h1 {
+    main .right-side .goal h1,
+    main .right-side .experience h1 {
         font-size: 28px;
     }
 
-    main .right-side .goal p, main .right-side .experience p {
+    main .right-side .goal p,
+    main .right-side .experience p {
         line-height: 24px;
     }
 }
 
 @media (max-width: 460px) {
-    main .right-side .name-person img {
+    main .right-side .person-info img {
         padding-top: 32px;
     }
 
-    main .right-side .name-person {
+    main .right-side .person-info {
         padding-top: 45px;
     }
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block .name {
         font-size: 48px;
     }
 
-    footer .social-networks p {
+    footer .social-networks .title {
         font-size: 14px;
     }
 
@@ -282,7 +285,7 @@
 }
 
 @media (max-width: 390px) {
-    main .left-side h1 {
+    main .left-side .title {
         font-size: 25px;
     }
 
@@ -290,15 +293,15 @@
         width: auto;
     }
 
-    main .right-side .name-person {
+    main .right-side .person-info {
         height: 220px;
     }
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block .name {
         font-size: 40px;
     }
 
-    main .right-side .name-person img {
+    main .right-side .person-info img {
         padding-top: 22px;
     }
 
@@ -306,11 +309,13 @@
         padding: 0 7% 0 6%;
     }
 
-    main .right-side .goal h1, main .right-side .experience h1 {
+    main .right-side .goal h1,
+    main .right-side .experience h1 {
         font-size: 22px;
     }
 
-    main .right-side .goal p, main .right-side .experience p {
+    main .right-side .goal p,
+    main .right-side .experience p {
         font-size: 14px;
     }
 
@@ -324,18 +329,15 @@
 
     footer {
         height: auto;
-    }
-
-    footer .social-networks {
         flex-direction: column;
-        margin: 10px;
+        padding: 10px;
     }
 
-    footer .social-networks p {
+    footer .social-networks .title {
         margin-bottom: 6px;
     }
 
-    footer .social-networks div {
+    footer .social-networks {
         padding: 0;
     }
 }
@@ -355,11 +357,11 @@
         width: fit-content;
     }
 
-    main .right-side .name-person .name-block h1 {
+    main .right-side .person-info .name-block .name {
         font-size: 36px;
     }
 
-    main .right-side .name-person img {
+    main .right-side .person-info img {
         padding-top: 18px;
     }
 
@@ -385,7 +387,7 @@
         border-radius: 4px;
     }
 
-    main .right-side .experience h2 {
+    main .right-side .experience .title {
         font-size: 20px;
     }
 }

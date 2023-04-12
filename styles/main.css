@@ -96,11 +96,11 @@ main .left-side .contacts img {
 }
 
 
-main .left-side .education h1 {
+main .left-side .education .title {
     letter-spacing: 3.5px;
 }
 
-main .left-side .education .education-item h3 {
+main .left-side .education .education-item .subtitle {
     margin: 8px 0;
     letter-spacing: 3px;
 }
@@ -188,7 +188,7 @@ main .right-side .wrapper {
     padding: 0 12% 0 9%;
 }
 
-main .right-side .name-person {
+main .right-side .person-info {
     position: relative;
     height: 300px;
     margin-bottom: 10px;
@@ -197,26 +197,26 @@ main .right-side .name-person {
     border-radius: 0px 0px 553px 222px / 0px 0px 214px 23px;
 }
 
-main .right-side .name-person img {
+main .right-side .person-info img {
     width: 44px;
     position: absolute;
     left: -10px;
     padding-top: 10px;
 }
 
-main .right-side .name-person .name-block {
+main .right-side .person-info .name-block {
     padding-left: 60px;
 }
 
-main .right-side .name-person .name-block h1 {
+main .right-side .person-info .name-block .name {
     font-size: 64px;
 }
 
-main .right-side .name-person h1 span {
+main .right-side .person-info .name-block span {
     font-family: Monserrat-bold;
 }
 
-main .right-side .name-person p {
+main .right-side .person-info .name-block .job-title {
     font-weight: 600;
     color: #939598;
 }
@@ -253,7 +253,7 @@ main .right-side hr {
 }
 
 
-main .right-side .experience h2 {
+main .right-side .experience .title {
     font-size: 30px;
     color: #535da6;
     letter-spacing: 3px;
@@ -261,23 +261,34 @@ main .right-side .experience h2 {
     margin-top: 20px;
 }
 
-main .right-side .experience .block-item .experience-item h3 {
+main .right-side .experience .experience-company .company-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+main .right-side .experience .experience-company .company-info .date {
+    opacity: .65;
+    font-weight: bold;
+}
+
+main .right-side .experience .subtitle {
     font-size: 20px;
-    font-family: Monserrat-bold;
+    font-weight: bold;
     letter-spacing: 2px;
     line-height: 40px;
 }
 
-main .right-side .experience .block-item .experience-item p {
+main .right-side .experience .description {
     color: #535da6;
     margin-bottom: 12px;
 }
-main .right-side .experience .block-item a {
+main .right-side .experience .experience-block a {
     color: #8b92c4;
     transition: all .07s ease-in-out;
     text-decoration: underline;
 }
-main .right-side .experience .block-item a:hover {
+main .right-side .experience .experience-block a:hover {
     color: #1d2561;
     font-weight: 600;
 }
@@ -297,19 +308,15 @@ footer {
     background-color: darkslategrey;
     display: flex;
     justify-content: center;
-}
-
-footer .social-networks {
-    display: flex;
     align-items: center;
-}
+} 
 
-footer .social-networks p {
-    font-family: Monserrat-bold;
+footer .title {
+    font-weight: bold;
     color: #fff;
 }
 
-footer .social-networks div {
+footer .social-networks{
     display: flex;
     padding-left: 30px;
 }
