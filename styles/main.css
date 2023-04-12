@@ -158,27 +158,54 @@ main .right-side {
     width: 65%;
 }
 
-main .right-side .languages-block{
+main .lang-certificate {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
     position: absolute;
-    display: block;
     top: 0;
     right: 0;
     z-index: 1;
     margin: 10px 15px;
+}
+
+main .lang-certificate .btn {
+    text-decoration: none;
+    background-color: rgba(42, 42, 41, .98);
+    box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.25);
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: all .3s ease-in;
+    display: block;
+    margin-top: 10px;
+}
+
+main .lang-certificate .btn:hover {
+    background-color: rgba(42, 42, 41, 1);
+    box-shadow: none;
+}
+
+main .lang-certificate .languages-block{
+    display: block;
     font-size: 18px;
 }
 
-main .right-side .languages-block .language:not(.current){
+main .lang-certificate .languages-block .language:not(.current){
     cursor: pointer;
     transition: .4s all ease-in;
     color: #000;
 }
 
-main .right-side .languages-block .language:not(.current):hover{
+main .lang-certificate .languages-block .language:not(.current):hover{
     opacity: .5;
 }
 
-main .right-side .languages-block .language.current{
+main .lang-certificate .languages-block .language.current{
     font-weight: bold;
     cursor: default;
     color: #000;

@@ -51,6 +51,10 @@
         padding-top: 80px;
     }
 
+    main .lang-certificate {
+        width: 55%;
+    }
+
     main .right-side .person-info .name-block h1 {
         font-size: 44px;
     }
@@ -88,6 +92,37 @@
         display: block;
     }
 
+    main .lang-certificate {
+        width: auto;
+        flex-direction: row;
+    }
+
+    main .lang-certificate .certificate {
+        background-color: rgba(42, 42, 41, .98);
+        box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.25);
+        padding: 6px;
+        margin-left: 10px;
+        border-radius: 6px;
+    }
+
+    main .lang-certificate .certificate:hover {
+        background-color: rgba(42, 42, 41, 1);
+        box-shadow: none;
+    }
+
+    main .lang-certificate .certificate .btn {
+        margin: 0;
+        font-size: 0;
+        background-image: url("../images/certificate.svg");
+        height: 30px;
+        width: 48px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        box-shadow: none;
+        background-color: transparent;
+    }
+
     main .left-side {
         width: auto;
         flex-direction: row;
@@ -114,14 +149,14 @@
         width: 100%;
     }
 
-    main .right-side .languages-block{
+    main .lang-certificate {
         right: auto;
         color: #fff;
     }
 
-    main .right-side .languages-block .language{
+    main .lang-certificate .languages-block .language {
         color: #fff !important;
-        text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+        text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
     }
 
     main .right-side .person-info .name-block .name {
@@ -213,7 +248,11 @@
 @media (max-width: 480px) {
     main .left-side {
         flex-direction: column;
-        padding-top: 30px;
+        padding-top: 35px;
+    }
+
+    main .lang-certificate {
+        width: 93%;
     }
 
     main .left-side .box-info:first-of-type {
@@ -345,7 +384,7 @@
 @media (max-width: 320px) {
     main .left-side {
         min-width: fit-content;
-        padding: 25px 0 0;
+        padding: 35px 0 0;
     }
 
     .box-info {
@@ -374,7 +413,7 @@
     main .right-side .wrapper p::-webkit-scrollbar {
         width: 6px;
     }
-    
+
 
     main .right-side .wrapper p::-webkit-scrollbar-track {
         background-color: rgba(85, 85, 85, 0.2);
