@@ -77,6 +77,10 @@ main .left-side .avatar {
     align-self: center;
 }
 
+main .left-side .contacts {
+    margin: 20px 0 50px;
+}
+
 main .left-side .contacts .contacts-item {
     padding: 7px 0;
     color: inherit;
@@ -116,15 +120,13 @@ main .left-side .hard-skills .skills-item {
     margin-bottom: 15px;
 }
 
-main .left-side .hard-skills p,
-main .left-side .soft-skills p {
+main .left-side .box-info p {
     font-size: 20px;
     margin-bottom: 4px;
     position: relative;
 }
 
-main .left-side .hard-skills p::before,
-main .left-side .soft-skills p::before {
+main .left-side .box-info p::before {
     content: '';
     position: absolute;
     border-radius: 50%;
@@ -188,6 +190,10 @@ main .lang-certificate .btn {
 main .lang-certificate .btn:hover {
     background-color: rgba(42, 42, 41, 1);
     box-shadow: none;
+}
+
+main .lang-certificate .certificate{
+    cursor: pointer;
 }
 
 main .lang-certificate .languages-block{
@@ -266,7 +272,7 @@ main .right-side .experience h1 {
 main .right-side .goal p,
 main .right-side .experience p {
     text-align: justify;
-    line-height: 28px;
+    line-height: 30px;
     font-size: 18px;
 }
 
@@ -303,7 +309,7 @@ main .right-side .experience .subtitle {
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 main .right-side .experience .description {
@@ -362,14 +368,18 @@ footer .social-networks a:hover {
     transform: scale(1.1);
 }
 
-footer .social-networks a:nth-of-type(1) {
+footer .social-networks .instagram {
     background-image: url('../images/instagram.png');
 }
 
-footer .social-networks a:nth-of-type(2) {
+footer .social-networks .telergam {
     background-image: url('../images/telegram.png');
 }
 
-footer .social-networks a:nth-of-type(3) {
+footer .social-networks .facebook {
     background-image: url('../images/facebook.png');
+}
+
+footer .social-networks .linkedin {
+    background-image: url('../images/linkedin.png');
 }

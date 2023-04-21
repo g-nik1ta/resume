@@ -3,6 +3,10 @@
         min-width: 500px !important;
     }
 
+    main .lang-certificate {
+        width: calc(100% - 580px);
+    }
+
     main .right-side {
         width: auto !important;
     }
@@ -10,21 +14,13 @@
 
 @media (max-width: 1150px) {
     main .left-side {
-        min-width: 320px
+        min-width: 320px;
+        flex-wrap: wrap;
     }
 
     main .left-side .wrapper {
         align-items: center;
-    }
-
-    main .left-side .avatar {
-        width: 230px;
-        height: 230px;
-    }
-
-    main .left-side .title {
-        font-size: 26px;
-    }
+    }  
 
     .box-info {
         width: 80%;
@@ -38,31 +34,18 @@
     main .right-side .goal h1,
     main .right-side .experience h1 {
         font-size: 36px;
-    }
-
-    main .right-side .experience .title {
-        font-size: 26px;
-    }
+    } 
 }
 
 @media (max-width: 900px) {
     main .right-side .person-info {
         height: 240px;
         padding-top: 80px;
-    }
+    }  
 
     main .lang-certificate {
-        width: 55%;
-    }
-
-    main .right-side .person-info .name-block h1 {
-        font-size: 44px;
-    }
-
-    main .right-side .goal h1,
-    main .right-side .experience h1 {
-        font-size: 32px;
-    }
+        width: calc(100% - 380px);
+    }  
 
     main .right-side .experience .experience-block .experience-item .description {
         max-height: 150px;
@@ -131,13 +114,17 @@
     }
 
     main .left-side .avatar {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         margin: 20px 0 0;
     }
 
-    main .left-side .box-info:first-of-type {
-        margin: 0 0 10px;
+    main .left-side .box-info {
+        margin: 10px 0;
+    }
+
+    main .left-side .wrapper .my-languages {
+        margin-bottom: 30px;
     }
 
     main .left-side .education {
@@ -157,25 +144,7 @@
     main .lang-certificate .languages-block .language {
         color: #fff !important;
         text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
-    }
-
-    main .right-side .person-info .name-block .name {
-        font-size: 50px;
-    }
-
-    main .right-side .goal {
-        padding-top: 15px;
-    }
-
-    main .right-side .goal h1,
-    main .right-side .experience h1 {
-        font-size: 40px;
-    }
-
-    main .right-side .goal p,
-    main .right-side .experience p {
-        line-height: 30px;
-    }
+    }    
 
     main .right-side .experience .experience-block .experience-item .description {
         max-height: fit-content;
@@ -188,30 +157,12 @@
         width: auto;
     }
 
-    main .left-side .avatar {
-        width: 170px;
-        height: 170px;
-    }
+    main .lang-certificate {
+        width: 93%;
+    }  
 
-    main .left-side h1 {
-        font-size: 20px;
-    }
-
-    main .left-side .contacts .contacts-item {
-        font-size: 14px;
-    }
-
-    main .left-side .education .education-item .subtitle {
-        font-size: 16px;
-    }
-
-    main .left-side .education .education-item p {
-        font-size: 14px;
-    }
-
-    main .left-side .hard-skills p,
-    main .left-side .soft-skills p {
-        font-size: 16px;
+    main .left-side .wrapper {
+        align-items: initial;
     }
 
 
@@ -249,40 +200,13 @@
     main .left-side {
         flex-direction: column;
         padding-top: 35px;
-    }
-
-    main .lang-certificate {
-        width: 93%;
-    }
-
-    main .left-side .box-info:first-of-type {
-        margin: 20px 0 40px;
-    }
-
-    main .left-side .avatar {
-        width: 230px;
-        height: 230px;
-    }
+    } 
 
     main .left-side .title {
         font-size: 28px;
-    }
+    }  
 
-    main .left-side .contacts .contacts-item,
-    main .left-side .education .education-item .subtitle {
-        font-size: 18px;
-    }
-
-    main .left-side .education .education-item .description {
-        font-size: 16px;
-    }
-
-    main .left-side .wrapper {
-        align-items: initial;
-    }
-
-    main .left-side .hard-skills p,
-    main .left-side .soft-skills p {
+    main .left-side .box-info p {
         font-size: 20px;
     }
 
@@ -299,18 +223,10 @@
     }
 }
 
-@media (max-width: 460px) {
-    main .right-side .person-info img {
-        padding-top: 32px;
-    }
-
+@media (max-width: 460px) { 
     main .right-side .person-info {
         padding-top: 45px;
-    }
-
-    main .right-side .person-info .name-block .name {
-        font-size: 48px;
-    }
+    } 
 
     footer .social-networks .title {
         font-size: 14px;
@@ -321,37 +237,24 @@
         height: 28px;
         margin: 0 8px;
     }
-}
-
-@media (max-width: 390px) {
-    main .left-side .title {
-        font-size: 25px;
-    }
-
-    main .left-side .wrapper {
-        width: auto;
-    }
 
     main .right-side .person-info {
         height: 220px;
     }
+}
+
+@media (max-width: 390px) { 
+    main .left-side .wrapper {
+        width: auto;
+    }
 
     main .right-side .person-info .name-block .name {
         font-size: 40px;
-    }
-
-    main .right-side .person-info img {
-        padding-top: 22px;
-    }
+    } 
 
     main .right-side .wrapper {
         padding: 0 7% 0 6%;
-    }
-
-    main .right-side .goal h1,
-    main .right-side .experience h1 {
-        font-size: 22px;
-    }
+    } 
 
     main .right-side .goal p,
     main .right-side .experience p {
@@ -385,24 +288,11 @@
     main .left-side {
         min-width: fit-content;
         padding: 35px 0 0;
-    }
-
-    .box-info {
-        width: fit-content;
-    }
+    } 
 
     main .left-side .wrapper {
         align-items: center;
-        width: fit-content;
-    }
-
-    main .right-side .person-info .name-block .name {
-        font-size: 36px;
-    }
-
-    main .right-side .person-info img {
-        padding-top: 18px;
-    }
+    }  
 
     main .right-side .wrapper p {
         max-height: 250px;
@@ -424,9 +314,5 @@
     main .right-side .wrapper p::-webkit-scrollbar-thumb {
         background-color: rgba(169, 169, 169, 0.4);
         border-radius: 4px;
-    }
-
-    main .right-side .experience .title {
-        font-size: 20px;
     }
 }
