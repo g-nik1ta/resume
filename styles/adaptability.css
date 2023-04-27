@@ -31,8 +31,7 @@
         font-size: 50px;
     }
 
-    main .right-side .goal h1,
-    main .right-side .experience h1 {
+    main .right-side .title {
         font-size: 36px;
     } 
 }
@@ -76,7 +75,7 @@
     }
 
     main .lang-certificate {
-        width: auto;
+        width: 95%;
         flex-direction: row;
     }
 
@@ -174,8 +173,7 @@
         margin-bottom: 20px;
     }
 
-    main .right-side .goal h1,
-    main .right-side .experience h1 {
+    main .right-side .title {
         font-size: 30px;
     }
 
@@ -204,6 +202,7 @@
 
     main .left-side .title {
         font-size: 28px;
+        width: min-content;
     }  
 
     main .left-side .box-info p {
@@ -212,8 +211,7 @@
 
 
 
-    main .right-side .goal h1,
-    main .right-side .experience h1 {
+    main .right-side .title {
         font-size: 28px;
     }
 

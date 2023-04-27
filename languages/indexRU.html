@@ -27,7 +27,7 @@
 
         <div class="left-side">
             <div class="wrapper">
-                <img class="avatar" src="../images/avatar.png" alt="avatar">
+                <img class="avatar" src="../images/avatar.jpg" alt="avatar">
                 <div class="contacts">
                     <h1 class="title">Контакты</h1>
                     <a href="tel:+380-99-627-2218" class="contacts-item">
@@ -66,43 +66,16 @@
 
             <div class="wrapper">
                 <div class="hard-skills box-info">
-                    <h1 class="title">Навыки</h1>
-                    <div class="skills-item">
-                        <p> React </p>
-                        <progress max="100" value="96"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> HTML5 </p>
-                        <progress max="100" value="100"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> CSS3 </p>
-                        <progress max="100" value="100"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> JavaScript(ES5,6) </p>
-                        <progress max="100" value="98"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> TypeScript </p>
-                        <progress max="100" value="76"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> Redux </p>
-                        <progress max="100" value="93"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> Vue </p>
-                        <progress max="100" value="57"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> Vuex </p>
-                        <progress max="100" value="49"></progress>
-                    </div>
-                    <div class="skills-item">
-                        <p> Vuetify </p>
-                        <progress max="100" value="60"></progress>
-                    </div>
+                    <h1 class="title">Hard skills</h1>
+                    <p> React </p>
+                    <p> HTML5 </p>
+                    <p> CSS3 </p>
+                    <p> JavaScript(ES5,6) </p>
+                    <p> TypeScript </p>
+                    <p> Redux </p>
+                    <p> Vue </p>
+                    <p> Vuex </p>
+                    <p> Vuetify </p>
                     <p> Git </p>
                     <p> REST API </p>
                     <p> Scss/Sass </p>
@@ -112,7 +85,7 @@
                     <p> Npm </p>
                 </div>
                 <div class="soft-skills box-info">
-                    <h1 class="title">Качества</h1>
+                    <h1 class="title">Soft Skills</h1>
                     <p> Продуктивность </p>
                     <p> Адаптируемость </p>
                     <p> Коммуникабельность </p>
@@ -141,11 +114,11 @@
 
             </div>
             <div class="goal wrapper">
-                <h1>Цель/обо мне</h1>
+                <h1 class="title">Цель/обо мне</h1>
                 <p>
                     Организован, спокойно отношусь к критике. Способен легко осваивать новый материал и слаженно
                     работать в команде.
-                    Обладаю отличными знаниями в <b>JavaScript</b>, <b>HTML</b>, <b>Css</b> и других
+                    Обладаю отличными знаниями в <b>JavaScript</b>, <b>HTML</b>, <b>CSS</b> и в других
                     технологиях. Достаточно хорошо освоил фреймворк <b>React</b> и меннеджер состояний
                     <b>Redux</b>. Имею не большой опыт в разработке веб-приложения на фреймворке <b>Vue</b>,
                     с использованием <b>Vuex</b>, а также <b>Vuetify</b>. <br /> Моя цель - работать в дружной,
@@ -158,25 +131,29 @@
             <hr>
 
             <div class="experience wrapper">
-                <h1>Опыт работы</h1>
+                <h1 class="title">Опыт работы</h1>
 
                 <div class="experience-company">
-                    <div class="company-info">
+                    <div class="info-block">
                         <h3 class="subtitle">Junior Frontend developer</h3>
                         <span class="date">Ноябрь 2022 - Март 2023</span>
                     </div>
                     <p class="description">
-                        Мы разрабатывали веб-приложение и роли для пользователей на основе <b>Vue 2</b> с
+                        Групповая работа направленная на разработку веб-приложения и ролей для пользователей на основе
+                        <b>Vue 2</b> с
                         <b>Vue-cli@5</b>, используя библиотеку <b>Vuetify</b> с интеграцией <b>Keycloak</b>, а также
                         меннеджер состояний <b>Vuex</b>. Кроме этого работали над созданием <b>пользовательских
                             интерфейсов</b> (UI) на основе различных макетов.
                     </p>
                 </div>
 
-                <h2 class="title">Pet projects</h2>
+                <h1 class="title">Pet projects</h1>
                 <div class="experience-block">
                     <div class="experience-item">
-                        <h3 class="subtitle">Интернет-магазин</h3>
+                        <div class="info-block">
+                            <h3 class="subtitle">Интернет-магазин</h3>
+                            <a href="https://github.com/g-nik1ta/react-web-shop" target="_blank">GitHub</a>
+                        </div>
                         <p class="description">
                             Этот проект имеет принцип SPA и написанный на фреймворке <b>React</b>, используя меннеджер
                             состояний <b>Redux</b>. Он включает в себя множество технологий, такие как: использование
@@ -186,11 +163,13 @@
                             слайдеры,
                             постраничная пагинация, фильтр и поиск товаров, корзина, оформление заказа, окно
                             авторизации, и др.
-                            <a href="https://github.com/g-nik1ta/react-web-shop" target="_blank">GitHub</a>
                         </p>
                     </div>
                     <div class="experience-item">
-                        <h3 class="subtitle">Прогноз погоды</h3>
+                        <div class="info-block">
+                            <h3 class="subtitle">Прогноз погоды</h3>
+                            <a href="https://github.com/g-nik1ta/weather-forecast-app" target="_blank">GitHub</a>
+                        </div>
                         <p class="description">
                             Здесь продемонстрированны знания в работе с <b>API</b>, <b>HTTP</b> запросами и ответами, а
                             также показано взаимодействие с <b>навигацией</b>. На сайте показаны основные показатели
@@ -198,49 +177,45 @@
                             возможность узнать погоду в городе по <b>текущему местоположению</b> или написав название
                             интересующего
                             города.
-                            <a href="https://github.com/g-nik1ta/weather-forecast-app" target="_blank">GitHub</a>
                         </p>
-                    </div>
-                    <!-- <div class="experience-item">
-                        <h3 class="subtitle">Калькулятор</h3>
-                        <p class="description">
-                            Типовое приложение на чистом JavaScript. В нем задействованы знания в работе с <b>local
-                                storage</b>, с помощью которого на сайте можно ставить "<b>ночную тему</b>". <a
-                                href="https://github.com/g-nik1ta/calculator" target="_blank">GitHub</a>
-                        </p>
-                    </div> -->
+                    </div> 
                     <div class="experience-item">
-                        <h3 class="subtitle">To do list</h3>
+                        <div class="info-block">
+                            <h3 class="subtitle">To do list</h3>
+                            <a href="https://github.com/g-nik1ta/to-do-list" target="_blank">GitHub</a>
+                        </div>
                         <p class="description">
                             Типовое приложение на чистом JS. Есть возможность <b>редактировать</b>, <b>удалять</b>, а
                             также помечать как "выполненно" имеющиеся задачи. Кроме этого присутсвует <b>сортировка</b>
                             всех заданий на "выполненно / не выполнено".
-                            <a href="https://github.com/g-nik1ta/to-do-list" target="_blank">GitHub</a>
                         </p>
                     </div>
                     <p class="my-github">Многие другие проекты на моем
                         <a href="https://github.com/g-nik1ta">GitHub</a>.
                     </p>
                 </div>
-                <h2 class="title">One page landings</h2>
+                <h1 class="title">One page landings</h1>
                 <div class="experience-block">
                     <div class="experience-item">
-                        <h3 class="subtitle">Pizza website</h3>
+                        <div class="info-block">
+                            <h3 class="subtitle">Pizza website</h3>
+                            <a href="https://github.com/g-nik1ta/pizza-website" target="_blank"><i>Находиться в разработке...</i></a>
+                        </div>
                         <p class="description">
                             Многостраничный веб-сайт, стилизированный через <b>scss</b> и собран с помощью
                             <b>gulp</b>.
-                            Присутсвует автослайдер, написанный на чистом JS. <a
-                                href="https://github.com/g-nik1ta/pizza-website" target="_blank"><i>Находиться в
-                                    разработке...</i></a>
+                            Присутсвует автослайдер, написанный на чистом JS. 
                         </p>
                     </div>
                     <div class="experience-item">
-                        <h3 class="subtitle">Golden landing page</h3>
+                        <div class="info-block">
+                            <h3 class="subtitle">Golden landing page</h3>
+                            <a href="https://github.com/g-nik1ta/golden-landing-page" target="_blank">GitHub</a>
+                        </div>
                         <p class="description">
                             Простой одностраничный сайт, с использованием <b>flex</b> и <b>grid</b> разметки, а также
                             семантической
-                            верстки. <a href="https://github.com/g-nik1ta/golden-landing-page"
-                                target="_blank">GitHub</a>
+                            верстки. 
                         </p>
                     </div>
                 </div>

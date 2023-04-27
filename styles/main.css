@@ -42,7 +42,7 @@ main .left-side h1 {
     text-transform: uppercase;
     font-size: 32px;
     letter-spacing: 8px;
-    line-height: 62px;
+    margin-bottom: 15px;
 }
 
 
@@ -64,7 +64,7 @@ main .left-side {
 main .left-side .wrapper {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 305px;
 }
 
 main .left-side .avatar {
@@ -114,11 +114,6 @@ main .left-side .education .education-item p {
 }
 
 
-main .left-side .hard-skills .skills-item {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
 
 main .left-side .box-info p {
     font-size: 20px;
@@ -136,22 +131,6 @@ main .left-side .box-info p::before {
     background-color: #fff;
     left: -18px;
     top: 7px;
-}
-
-main .left-side .hard-skills .skills-item progress {
-    width: 100%;
-    appearance: none;
-    height: 3px;
-}
-
-progress::-webkit-progress-bar {
-    background-color: #0073a1;
-    border-radius: 4px;
-}
-
-progress::-webkit-progress-value {
-    background-color: #ffffff;
-    border-radius: 4px;
 }
 
 
@@ -260,13 +239,13 @@ main .right-side .goal {
     margin-bottom: 35px;
 }
 
-main .right-side .goal h1,
-main .right-side .experience h1 {
+main .right-side .title {
     font-size: 44px;
     margin-bottom: 15px;
     color: #535da6;
     letter-spacing: 10px;
     text-transform: uppercase;
+    margin-top: 10px;
 }
 
 main .right-side .goal p,
@@ -286,21 +265,14 @@ main .right-side hr {
 }
 
 
-main .right-side .experience .title {
-    font-size: 30px;
-    color: #535da6;
-    letter-spacing: 3px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
 
-main .right-side .experience .experience-company .company-info {
+main .right-side .experience .info-block {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
 
-main .right-side .experience .experience-company .company-info .date {
+main .right-side .experience .info-block .date {
     opacity: .65;
     font-weight: bold;
 }
@@ -320,6 +292,7 @@ main .right-side .experience .experience-block a {
     color: #8b92c4;
     transition: all .07s ease-in-out;
     text-decoration: underline;
+    font-size: 19px;
 }
 main .right-side .experience .experience-block a:hover {
     color: #1d2561;
