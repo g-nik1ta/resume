@@ -277,6 +277,15 @@ main .right-side .experience .info-block .date {
     font-weight: bold;
 }
 
+main .right-side .experience .info-block .date a {
+    color: inherit;
+}
+
+main .right-side .experience .info-block .date a:hover {
+    color: #4254dc;
+    text-decoration: underline;
+}
+
 main .right-side .experience .subtitle {
     font-size: 20px;
     font-weight: bold;
