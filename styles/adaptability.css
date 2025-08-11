@@ -177,8 +177,14 @@
         font-size: 30px;
     }
 
+    main .right-side .description {
+        padding-top: 8px;
+    }
+    
     main .right-side .goal p,
-    main .right-side .experience p {
+    main .right-side .experience p,
+    main .right-side .experience .description ul,
+    main .right-side .experience .description ul li {
         line-height: 26px;
         font-size: 16px;
     }
@@ -187,8 +193,12 @@
         font-size: 24px;
     }
 
+    main .right-side .experience .subtitle {
+        line-height: 24px;
+    }
+
     main .right-side .experience .experience-block .experience-item .description {
-        max-height: 100px;
+        max-height: 120px;
         overflow: scroll;
         overflow-x: hidden;
     }
@@ -209,14 +219,19 @@
         font-size: 20px;
     }
 
-
+    main .right-side .experience .info-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
     main .right-side .title {
         font-size: 28px;
     }
 
     main .right-side .goal p,
-    main .right-side .experience p {
+    main .right-side .experience p,
+    main .right-side .experience .description ul,
+    main .right-side .experience .description ul li {
         line-height: 24px;
     }
 }
@@ -255,7 +270,9 @@
     } 
 
     main .right-side .goal p,
-    main .right-side .experience p {
+    main .right-side .experience p,
+    main .right-side .experience .description ul,
+    main .right-side .experience .description ul li {
         font-size: 14px;
     }
 

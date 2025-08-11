@@ -45,8 +45,6 @@ main .left-side h1 {
     margin-bottom: 15px;
 }
 
-
-
 main {
     width: 100%;
     display: flex;
@@ -87,7 +85,7 @@ main .left-side .contacts .contacts-item {
     display: flex;
     align-items: center;
     font-size: 18px;
-    transition: all .15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 main .left-side .contacts .contacts-item:hover {
@@ -98,7 +96,6 @@ main .left-side .contacts img {
     width: 30px;
     padding-right: 10px;
 }
-
 
 main .left-side .education .title {
     letter-spacing: 3.5px;
@@ -113,8 +110,6 @@ main .left-side .education .education-item p {
     line-height: 25px;
 }
 
-
-
 main .left-side .box-info p {
     font-size: 20px;
     margin-bottom: 4px;
@@ -122,7 +117,7 @@ main .left-side .box-info p {
 }
 
 main .left-side .box-info p::before {
-    content: '';
+    content: "";
     position: absolute;
     border-radius: 50%;
     width: 8px;
@@ -132,8 +127,6 @@ main .left-side .box-info p::before {
     left: -18px;
     top: 7px;
 }
-
-
 
 main .right-side {
     width: 65%;
@@ -154,14 +147,14 @@ main .lang-certificate {
 
 main .lang-certificate .btn {
     text-decoration: none;
-    background-color: rgba(42, 42, 41, .98);
+    background-color: rgba(42, 42, 41, 0.98);
     box-shadow: 2px 6px 8px rgba(0, 0, 0, 0.25);
     padding: 10px 20px;
     font-weight: 500;
     font-size: 15px;
     color: #fff;
     letter-spacing: 2px;
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
     display: block;
     margin-top: 10px;
 }
@@ -171,26 +164,26 @@ main .lang-certificate .btn:hover {
     box-shadow: none;
 }
 
-main .lang-certificate .certificate{
+main .lang-certificate .certificate {
     cursor: pointer;
 }
 
-main .lang-certificate .languages-block{
+main .lang-certificate .languages-block {
     display: block;
     font-size: 18px;
 }
 
-main .lang-certificate .languages-block .language:not(.current){
+main .lang-certificate .languages-block .language:not(.current) {
     cursor: pointer;
-    transition: .4s all ease-in;
+    transition: 0.4s all ease-in;
     color: #000;
 }
 
-main .lang-certificate .languages-block .language:not(.current):hover{
-    opacity: .5;
+main .lang-certificate .languages-block .language:not(.current):hover {
+    opacity: 0.5;
 }
 
-main .lang-certificate .languages-block .language.current{
+main .lang-certificate .languages-block .language.current {
     font-weight: bold;
     cursor: default;
     color: #000;
@@ -233,7 +226,6 @@ main .right-side .person-info .name-block .job-title {
     color: #939598;
 }
 
-
 main .right-side .goal {
     padding-top: 60px;
     margin-bottom: 35px;
@@ -249,31 +241,37 @@ main .right-side .title {
 }
 
 main .right-side .goal p,
-main .right-side .experience p {
+main .right-side .experience p,
+main .right-side .experience ul,
+main .right-side .experience ul li {
     text-align: justify;
     line-height: 30px;
     font-size: 18px;
+}
+main .right-side .experience .description p:first-child,
+main .right-side .experience-item .description,
+main .right-side .goal p {
+    text-indent: 2em;
 }
 
 main .right-side hr {
     height: 3px;
     width: 82%;
-    margin:  0 auto;
+    margin: 0 auto;
     border: none;
     background-color: #e0dfdf;
     margin-bottom: 20px;
 }
 
-
-
 main .right-side .experience .info-block {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    gap: 4px;
 }
 
 main .right-side .experience .info-block .date {
-    opacity: .65;
+    opacity: 0.65;
     font-weight: bold;
 }
 
@@ -293,13 +291,31 @@ main .right-side .experience .subtitle {
     line-height: 30px;
 }
 
+main .right-side .description {
+    padding-top: 2px;
+}
+main .right-side .experience .experience-company ~ .experience-company {
+    margin-top: 32px;
+}
 main .right-side .experience .description {
     color: #535da6;
     margin-bottom: 12px;
 }
+
+main .right-side .experience .description ul {
+    margin: 8px 0;
+}
+main .right-side .experience .description ul li {
+    font-size: 18px;
+    color: #535da6;
+    list-style-position: inside;
+}
+main .right-side .experience .description ul li + li {
+    margin-top: 6px;
+}
 main .right-side .experience .experience-block a {
     color: #8b92c4;
-    transition: all .07s ease-in-out;
+    transition: all 0.07s ease-in-out;
     text-decoration: underline;
     font-size: 19px;
 }
@@ -312,11 +328,9 @@ main .right-side .my-github {
     color: rgb(0, 0, 81);
     font-style: italic;
     letter-spacing: 2px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin-top: -7px;
 }
-
-
 
 footer {
     height: 60px;
@@ -324,14 +338,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 footer .title {
     font-weight: bold;
     color: #fff;
 }
 
-footer .social-networks{
+footer .social-networks {
     display: flex;
     padding-left: 30px;
 }
@@ -343,7 +357,7 @@ footer .social-networks a {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    transition: all .15s ease-in-out;
+    transition: all 0.15s ease-in-out;
 }
 
 footer .social-networks a:hover {
@@ -351,17 +365,17 @@ footer .social-networks a:hover {
 }
 
 footer .social-networks .instagram {
-    background-image: url('../images/instagram.png');
+    background-image: url("../images/instagram.png");
 }
 
 footer .social-networks .telergam {
-    background-image: url('../images/telegram.png');
+    background-image: url("../images/telegram.png");
 }
 
 footer .social-networks .facebook {
-    background-image: url('../images/facebook.png');
+    background-image: url("../images/facebook.png");
 }
 
 footer .social-networks .linkedin {
-    background-image: url('../images/linkedin.png');
+    background-image: url("../images/linkedin.png");
 }
